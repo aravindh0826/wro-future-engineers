@@ -1,0 +1,5 @@
+# WRO 2025 Future Engineers — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+opencv-python>=4.8.0
+numpy>=1.24.0
