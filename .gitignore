@@ -1,6 +1,7 @@
 # ==========================================
 # Python Cache / Compiled Files
 # ==========================================
+
 __pycache__/
 *.py[cod]
 *$py.class
@@ -8,6 +9,7 @@ __pycache__/
 # ==========================================
 # Virtual Environment
 # ==========================================
+
 venv/
 .env/
 env/
@@ -16,6 +18,7 @@ ENV/
 # ==========================================
 # Environment Variables / Secrets
 # ==========================================
+
 .env
 .env.*
 !.env.example
@@ -23,6 +26,7 @@ ENV/
 # ==========================================
 # VS Code / IDE
 # ==========================================
+
 .vscode/
 .idea/
 *.swp
@@ -31,12 +35,14 @@ ENV/
 # ==========================================
 # Logs
 # ==========================================
+
 *.log
 logs/
 
 # ==========================================
 # Temporary Files
 # ==========================================
+
 temp/
 tmp/
 *.tmp
@@ -44,17 +50,20 @@ tmp/
 # ==========================================
 # OS Files
 # ==========================================
+
 .DS_Store
 Thumbs.db
 
 # ==========================================
 # Jupyter
 # ==========================================
+
 .ipynb_checkpoints/
 
 # ==========================================
 # Testing / Coverage
 # ==========================================
+
 .pytest_cache/
 .coverage
 htmlcov/
@@ -62,12 +71,14 @@ htmlcov/
 # ==========================================
 # Type Checkers / Linters
 # ==========================================
+
 .mypy_cache/
 .ruff_cache/
 
 # ==========================================
 # Build Files
 # ==========================================
+
 build/
 dist/
 *.egg-info/
@@ -75,35 +86,31 @@ dist/
 # ==========================================
 # OpenCV Captures / Output Media
 # ==========================================
+
 captures/
 recordings/
 output/
 debug/
 screenshots/
 
-
+# Video files
 *.avi
 *.mp4
 *.mov
 *.mkv
 
+# ==========================================
+# Images
+# ==========================================
 
-*.png
-*.jpg
-*.jpeg
-
-
-!assets/
-!dataset/
-
-# WRO §7 requires vehicle/team photos to actually be in the repo --
-# don't let the blanket image ignore above swallow them.
-!media/
-!media/**
+# Images are NOT globally ignored.
+# This allows project/team/vehicle photos to
+# be committed normally.
 
 # ==========================================
 # AI / Model Files
 # ==========================================
+
 models/
 weights/
 checkpoints/
@@ -118,5 +125,6 @@ checkpoints/
 # ==========================================
 # Misc
 # ==========================================
+
 *.bak
 *.old
