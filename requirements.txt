@@ -1,0 +1,8 @@
+# WRO 2026 Future Engineers — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+opencv-python>=4.8.0
+numpy>=1.24.0
+smbus2>=0.4.2   # MPU6050 IMU (I2C) -- only actually imported on real Pi hardware
+pyserial>=3.5   # Pi<->Arduino wired serial link (arduino_motor_controller.py) -- only imported on real Pi hardware
+RPi.GPIO>=0.7.1 # start button (start_switch.py) -- only actually imported on real Pi hardware

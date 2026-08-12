@@ -1,0 +1,6 @@
+{
+  "focal_length_px": 317.4,
+  "camera_matrix": null,
+  "dist_coeffs": null,
+  "note": "focal_length_px is a geometric estimate for Pi Camera Module Rev 1.3 (OV5647, f=3.6mm) at 320px capture width. Run focal_calibrator.py on the real vehicle to replace it with a measured value. camera_matrix/dist_coeffs are filled in by lens_calibrator.py if you run a checkerboard calibration."
+}
